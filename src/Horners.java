@@ -1,7 +1,6 @@
 // Java program for implementation of Horner Method
 // for Polynomial Evaluation
 
-import java.io.*;
 import java.util.Scanner;
 
 class HornerPolynomial {
@@ -16,14 +15,13 @@ class HornerPolynomial {
     }
 
     public static void main(String[] args) {
-        // Let us evaluate value of 3 + 11x - 17x^2 + 2x^3
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter x: ");
         int x = sc.nextInt();
 
 
-        int[] poly = {2, -17, 11, 3};
+        int[] poly = {4, 8, 0, 1, 2};
 
 
         int n = poly.length;
